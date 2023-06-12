@@ -1,0 +1,103 @@
+input[type="submit"],
+input[type="button"],
+button {
+  background-color: #219ebc;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 15px;
+
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+select,
+input[type=date] {
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: orchid;
+  background-color: #1a759f;
+  color: cornsilk;
+
+
+}
+
+#sub:hover {
+  background-color: #4361ee;
+}
+
+#res:hover {
+  background-color: #4361ee;
+}
+
+button:hover {
+  background-color: #4361ee;
+}
+
+
+
+body {
+  background-image: url("https://cdn2.vectorstock.com/i/1000x1000/14/36/indian-cuisine-sketch-pattern-background-vector-23081436.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.list {
+  /* color: #555;*/
+  font-size: 22px;
+  padding: 15px !important;
+  width: 500px;
+  font-family: courier, monospace;
+  border: 1px solid #dedede;
+}
+
+.list td {
+  list-style: none;
+  /* border-bottom: 1px dotted #ccc;*/
+
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.list td:hover {
+  background-color: #b6ad90;
+  /* -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -ms-transition:     all 0.2s;
+    -o-transition:      all 0.2s;*/
+}
+
+#heading {
+  opacity: 0.8;
+  background: rgba(0, 151, 19, 0.6);
+  padding: 20px;
+
+
+}
+
+#cal {
+  width: 180px;
+  background-color: #1a759f;
+  color: cornsilk;
+}
+
+table {
+  background: rgba(255, 248, 220, 0.70);
+}
+
+::placeholder {
+  color: cornsilk;
+}
+
+#fname,
+#mn,
+#eml,
+#dat,
+#s {
+  font-family: courier, monospace;
+  color: black;
+}
